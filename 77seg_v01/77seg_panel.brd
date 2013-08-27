@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.15" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -82,9 +82,9 @@
 <layer number="108" name="Externals" color="10" fill="1" visible="no" active="yes"/>
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="dimCad" color="32" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tCad" color="33" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="bCad" color="34" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="dimCad" color="32" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tCad" color="33" fill="1" visible="no" active="yes"/>
+<layer number="113" name="bCad" color="34" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -131,23 +131,6 @@
 </layers>
 <board>
 <plain>
-<text x="-4.26999375" y="-2.69999375" size="0.8128" layer="125" rot="R90" align="bottom-center">C1</text>
-<text x="-4.26999375" y="4.499990625" size="0.8128" layer="125" rot="R90" align="bottom-center">R1</text>
-<text x="-3.520009375" y="3.59999375" size="0.8128" layer="125" rot="R270" align="bottom-center">U1</text>
-<text x="8.43000625" y="-2.69999375" size="0.8128" layer="125" rot="R90" align="bottom-center">C1</text>
-<text x="8.43000625" y="4.499990625" size="0.8128" layer="125" rot="R90" align="bottom-center">R1</text>
-<text x="9.179990625" y="3.59999375" size="0.8128" layer="125" rot="R270" align="bottom-center">U1</text>
-<text x="21.13000625" y="-2.69999375" size="0.8128" layer="125" rot="R90" align="bottom-center">C1</text>
-<text x="21.13000625" y="4.499990625" size="0.8128" layer="125" rot="R90" align="bottom-center">R1</text>
-<text x="21.879990625" y="3.59999375" size="0.8128" layer="125" rot="R270" align="bottom-center">U1</text>
-<text x="33.83000625" y="-2.69999375" size="0.8128" layer="125" rot="R90" align="bottom-center">C1</text>
-<text x="33.83000625" y="4.499990625" size="0.8128" layer="125" rot="R90" align="bottom-center">R1</text>
-<text x="34.579990625" y="3.59999375" size="0.8128" layer="125" rot="R270" align="bottom-center">U1</text>
-<text x="-16.44000625" y="-7.349996875" size="0.8128" layer="125" font="vector" rot="R270" align="center-left">R1</text>
-<text x="-16.14000625" y="0.7500125" size="0.8128" layer="125" font="vector" rot="R270" align="center-left">R2</text>
-<text x="-17.640003125" y="0.7500125" size="0.8128" layer="125" font="vector" rot="R270" align="center-left">R3</text>
-<text x="-16.14000625" y="6.2999875" size="0.8128" layer="125" font="vector" rot="R90" align="center-left">VCC</text>
-<text x="-17.640003125" y="6.2999875" size="0.8128" layer="125" font="vector" rot="R90" align="center-left">VLED</text>
 <wire x1="-5.98" y1="-8.5" x2="-5.98" y2="8.5" width="0" layer="20"/>
 <wire x1="-5.98" y1="8.5" x2="-4.98" y2="9.5" width="0" layer="20" curve="-90"/>
 <wire x1="-3.03" y1="11.55" x2="-3.03" y2="10.5" width="0" layer="20"/>
